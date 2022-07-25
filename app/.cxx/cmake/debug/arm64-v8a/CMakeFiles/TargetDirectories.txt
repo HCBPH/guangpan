@@ -1,0 +1,3 @@
+D:/Project/android_project/guangpanxingdong/app/.cxx/cmake/debug/arm64-v8a/CMakeFiles/yolov5ncnn.dir
+D:/Project/android_project/guangpanxingdong/app/.cxx/cmake/debug/arm64-v8a/CMakeFiles/edit_cache.dir
+D:/Project/android_project/guangpanxingdong/app/.cxx/cmake/debug/arm64-v8a/CMakeFiles/rebuild_cache.dir

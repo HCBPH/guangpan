@@ -1,0 +1,48 @@
+{
+  "stringTable": {
+    "0": "D:/Project/android_project/guangpanxingdong/app/.cxx/cmake/release/arm64-v8a",
+    "1": "--target=aarch64-none-linux-android24 --gcc-toolchain=D:/Tool/Android_SDK/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/Tool/Android_SDK/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dyolov5ncnn_EXPORTS -isystem D:/Project/android_project/guangpanxingdong/app/src/main/jni/ncnn-20210124-android-vulkan-shared/arm64-v8a/include/ncnn -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -O2 -DNDEBUG -fPIC -fno-rtti -fno-exceptions"
+  },
+  "buildFiles": [
+    "D:\\Project\\android_project\\guangpanxingdong\\app\\src\\main\\jni\\CMakeLists.txt",
+    "D:\\Tool\\Android_SDK\\ndk\\21.1.6352462\\build\\cmake\\android.toolchain.cmake",
+    "D:\\Tool\\Android_SDK\\ndk\\21.1.6352462\\build\\cmake\\platforms.cmake",
+    "D:\\Project\\android_project\\guangpanxingdong\\app\\src\\main\\jni\\ncnn-20210124-android-vulkan-shared\\arm64-v8a\\lib\\cmake\\ncnn\\ncnnConfig.cmake",
+    "D:\\Project\\android_project\\guangpanxingdong\\app\\src\\main\\jni\\ncnn-20210124-android-vulkan-shared\\arm64-v8a\\lib\\cmake\\ncnn\\ncnn.cmake",
+    "D:\\Project\\android_project\\guangpanxingdong\\app\\src\\main\\jni\\ncnn-20210124-android-vulkan-shared\\arm64-v8a\\lib\\cmake\\ncnn\\ncnn-release.cmake"
+  ],
+  "cleanCommands": [
+    "D:\\Tool\\Android_SDK\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"D:\\Project\\android_project\\guangpanxingdong\\app\\.cxx\\cmake\\release\\arm64-v8a\" clean"
+  ],
+  "buildTargetsCommand": "D:\\Tool\\Android_SDK\\cmake\\3.10.2.4988404\\bin\\ninja.exe  -C \"D:\\Project\\android_project\\guangpanxingdong\\app\\.cxx\\cmake\\release\\arm64-v8a\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "yolov5ncnn-Release-arm64-v8a": {
+      "buildCommand": "D:\\Tool\\Android_SDK\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"D:\\Project\\android_project\\guangpanxingdong\\app\\.cxx\\cmake\\release\\arm64-v8a\" yolov5ncnn",
+      "buildType": "release",
+      "toolchain": "680594168",
+      "abi": "arm64-v8a",
+      "artifactName": "yolov5ncnn",
+      "files": [
+        {
+          "src": "D:\\Project\\android_project\\guangpanxingdong\\app\\src\\main\\jni\\yolov5ncnn_jni.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [],
+      "output": "D:\\Project\\android_project\\guangpanxingdong\\app\\build\\intermediates\\cmake\\release\\obj\\arm64-v8a\\libyolov5ncnn.so",
+      "runtimeFiles": [
+        "D:\\Project\\android_project\\guangpanxingdong\\app\\src\\main\\jni\\ncnn-20210124-android-vulkan-shared\\arm64-v8a\\lib\\libncnn.so"
+      ]
+    }
+  },
+  "toolchains": {
+    "680594168": {
+      "cppCompilerExecutable": "D:\\Tool\\Android_SDK\\ndk\\21.1.6352462\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe"
+    }
+  },
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "buildFiles": [
+    "D:\\Project\\android_project\\guangpanxingdong\\app\\src\\main\\jni\\CMakeLists.txt",
+    "D:\\Tool\\Android_SDK\\ndk\\21.1.6352462\\build\\cmake\\android.toolchain.cmake",
+    "D:\\Tool\\Android_SDK\\ndk\\21.1.6352462\\build\\cmake\\platforms.cmake",
+    "D:\\Project\\android_project\\guangpanxingdong\\app\\src\\main\\jni\\ncnn-20210124-android-vulkan-shared\\arm64-v8a\\lib\\cmake\\ncnn\\ncnnConfig.cmake",
+    "D:\\Project\\android_project\\guangpanxingdong\\app\\src\\main\\jni\\ncnn-20210124-android-vulkan-shared\\arm64-v8a\\lib\\cmake\\ncnn\\ncnn.cmake",
+    "D:\\Project\\android_project\\guangpanxingdong\\app\\src\\main\\jni\\ncnn-20210124-android-vulkan-shared\\arm64-v8a\\lib\\cmake\\ncnn\\ncnn-release.cmake"
+  ],
+  "cleanCommands": [
+    "D:\\Tool\\Android_SDK\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"D:\\Project\\android_project\\guangpanxingdong\\app\\.cxx\\cmake\\release\\arm64-v8a\" clean"
+  ],
+  "buildTargetsCommand": "D:\\Tool\\Android_SDK\\cmake\\3.10.2.4988404\\bin\\ninja.exe  -C \"D:\\Project\\android_project\\guangpanxingdong\\app\\.cxx\\cmake\\release\\arm64-v8a\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "yolov5ncnn-Release-arm64-v8a": {
+      "artifactName": "yolov5ncnn",
+      "buildCommand": "D:\\Tool\\Android_SDK\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"D:\\Project\\android_project\\guangpanxingdong\\app\\.cxx\\cmake\\release\\arm64-v8a\" yolov5ncnn",
+      "abi": "arm64-v8a",
+      "output": "D:\\Project\\android_project\\guangpanxingdong\\app\\build\\intermediates\\cmake\\release\\obj\\arm64-v8a\\libyolov5ncnn.so",
+      "runtimeFiles": [
+        "D:\\Project\\android_project\\guangpanxingdong\\app\\src\\main\\jni\\ncnn-20210124-android-vulkan-shared\\arm64-v8a\\lib\\libncnn.so"
+      ]
+    }
+  }
+}
